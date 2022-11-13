@@ -1,0 +1,83 @@
+:root {
+  --blue-text: #2196f3;
+  --black-text: #000;
+  --grey-text: #212121;
+  --white-text: #fff;
+  --team-background-color: #f5f4fa;
+  --darkGrey-background-color: #2f303a;
+}
+
+body {
+  font-family: 'Roboto';
+  color: var(--grey-text);
+}
+
+.top-menu {
+  font-size: 14px;
+}
+
+.webstudio {
+  font-family: 'Raleway';
+  font-weight: bold;
+  font-size: 26px;
+  text-decoration: none;
+}
+
+.web {
+  color: var(--blue-text);
+}
+
+.studio-black {
+  color: var(--black-text);
+}
+
+.studio-white {
+  color: var(--white-text);
+}
+
+.page-link {
+  text-decoration: none;
+  color: var(--grey-text);
+  font-weight: 500;
+}
+
+.page-link:hover {
+  color: var(--blue-text);
+  cursor: pointer;
+}
+
+.title {
+  background-color: var(--darkGrey-background-color);
+  color: var(--white-text);
+  text-transform: uppercase;
+}
+
+.lista {
+  list-style-type: none;
+}
+
+.stopka {
+  background-color: var(--darkGrey-background-color);
+  color: var(--white-text);
+}
+
+.stopka-link {
+  color: #ffffff60;
+  text-decoration: none;
+}
+
+.stopka-adres {
+  font-style: normal;
+}
+
+.header {
+  font-size: 36px;
+}
+
+.team {
+  background-color: var(--team-background-color);
+}
+
+.pozycja {
+  text-align: center;
+}
