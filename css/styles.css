@@ -10,9 +10,6 @@
 body {
   font-family: 'Roboto';
   color: var(--grey-text);
-}
-
-.top-menu {
   font-size: 14px;
 }
 
