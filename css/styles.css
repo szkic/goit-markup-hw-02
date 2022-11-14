@@ -3,33 +3,27 @@
   --black-text: #000;
   --grey-text: #212121;
   --white-text: #fff;
+  --light-grey: #757575;
   --team-background-color: #f5f4fa;
   --darkGrey-background-color: #2f303a;
 }
 
 body {
-  font-family: 'Roboto';
+  font-family: Roboto, sans-serif; /* dodać inne czcionki */
   color: var(--grey-text);
-  font-size: 14px;
+  font-size: 14px; /*czy to ma być w body? */
 }
 
 .webstudio {
-  font-family: 'Raleway';
+  font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
   text-decoration: none;
+  color: var(--black-text);
 }
 
 .web-blue {
   color: var(--blue-text);
-}
-
-.black-text {
-  color: var(--black-text);
-}
-
-.white-text {
-  color: var(--white-text);
 }
 
 .page-link {
@@ -38,41 +32,77 @@ body {
   font-weight: 500;
 }
 
-.page-link:hover {
+.page-link:hover,
+.page-link:focus {
   color: var(--blue-text);
-  cursor: pointer;
 }
 
-.nazwa {
+.title-description {
+  background-color: var(--darkGrey-background-color);
   text-transform: uppercase;
+  color: var(--white-text);
+  text-align: center;
 }
 
-.lista {
+.list {
   list-style-type: none;
 }
 
-/* szare tło tak jak w title */
-.grey-background {
-  background-color: var(--darkGrey-background-color);
-}
-
-.stopka-link {
-  color: #ffffff60;
-  text-decoration: none;
-}
-
-.stopka-adres {
-  font-style: normal;
-}
-
-.header {
+.heading {
   font-size: 36px;
 }
 
 .team {
   background-color: var(--team-background-color);
+  text-align: center;
 }
 
-.pozycja-center {
+.what-we-do {
   text-align: center;
+}
+
+.small-font {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.employe {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.job {
+  color: var(--light-grey);
+}
+
+.portfolio-elements {
+  text-align: center;
+}
+
+.portfolio-project {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.portfolio-description {
+  font-size: 16px;
+}
+
+.contact {
+  background-color: var(--darkGrey-background-color);
+  color: var(--white-text);
+}
+
+.studio-white {
+  color: var(--white-text);
+}
+
+.contact-page-link {
+  color: #ffffff60;
+  text-decoration: none;
+}
+
+.address-info {
+  font-style: normal; /*skasować? C17 */
+  text-decoration: none;
 }

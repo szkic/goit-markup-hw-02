@@ -15,15 +15,15 @@
   </head>
   <body>
     <header class="top-menu">
-      <a href="index.html" class="webstudio black-text"><span class="web-blue">Web</span>Studio</a>
+      <a href="index.html" class="webstudio"><span class="web-blue">Web</span>Studio</a>
       <nav>
-        <ul class="lista">
+        <ul class="list">
           <li><a href="#" class="page-link">Agencja</a></li>
-          <li><a href="#" class="page-link">Portfolio</a></li>
+          <li><a href="portfolio.html" class="page-link">Portfolio</a></li>
           <li><a href="#" class="page-link">Kontakt</a></li>
         </ul>
       </nav>
-      <ul class="lista">
+      <ul class="list">
         <li><a href="mailto:info@devstudio.com" class="page-link">info@devstudio.com</a></li>
         <li><a href="tel:+48111111111" class="page-link">+48 111 111 111</a></li>
       </ul>
@@ -31,8 +31,8 @@
 
     <main>
       <!-- przyciski -->
-      <section class="pozycja-center">
-        <ul class="lista">
+      <section class="portfolio-elements">
+        <ul class="list">
           <li>
             <button type="button">Wszystkie</button>
             <button type="button">Strony</button>
@@ -43,7 +43,7 @@
         </ul>
 
         <!-- elementy portfolio -->
-        <ul class="lista">
+        <ul class="list">
           <li>
             <figure>
               <img
@@ -53,8 +53,8 @@
                 height="294"
               />
               <figcaption>
-                <h4>Technocrack</h4>
-                <p>Strona internetowa</p>
+                <h4 class="portfolio-project">Technocrack</h4>
+                <p class="portfolio-description">Strona internetowa</p>
               </figcaption>
             </figure>
           </li>
@@ -67,8 +67,8 @@
                 height="294"
               />
               <figcaption>
-                <h4>Grafika New Orlean vs Golden Star</h4>
-                <p>Dizajn</p>
+                <h4 class="portfolio-project">Grafika New Orlean vs Golden Star</h4>
+                <p class="portfolio-description">Dizajn</p>
               </figcaption>
             </figure>
           </li>
@@ -81,8 +81,8 @@
                 height="294"
               />
               <figcaption>
-                <h4>Restauracja Seafood</h4>
-                <p>Aplikacja</p>
+                <h4 class="portfolio-project">Restauracja Seafood</h4>
+                <p class="portfolio-description">Aplikacja</p>
               </figcaption>
             </figure>
           </li>
@@ -90,8 +90,8 @@
             <figure>
               <img src="images/portfolio/headphones.jpg" alt="słuchawki" width="370" height="294" />
               <figcaption>
-                <h4>Projekt Prime</h4>
-                <p>Marketing</p>
+                <h4 class="portfolio-project">Projekt Prime</h4>
+                <p class="portfolio-description">Marketing</p>
               </figcaption>
             </figure>
           </li>
@@ -99,8 +99,8 @@
             <figure>
               <img src="images/portfolio/boxes.jpg" alt="pudełka" width="370" height="294" />
               <figcaption>
-                <h4>Projekt Boxes</h4>
-                <p>Aplikacja</p>
+                <h4 class="portfolio-project">Projekt Boxes</h4>
+                <p class="portfolio-description">Aplikacja</p>
               </figcaption>
             </figure>
           </li>
@@ -108,8 +108,8 @@
             <figure>
               <img src="images/portfolio/monitor.jpg" alt="monitor" width="370" height="294" />
               <figcaption>
-                <h4>Inspiration has no Borders</h4>
-                <p>Strona internetowa</p>
+                <h4 class="portfolio-project">Inspiration has no Borders</h4>
+                <p class="portfolio-description">Strona internetowa</p>
               </figcaption>
             </figure>
           </li>
@@ -117,8 +117,8 @@
             <figure>
               <img src="images/portfolio/book.jpg" alt="książka" width="370" height="294" />
               <figcaption>
-                <h4>Magazyn Limited Edtition</h4>
-                <p>Dizajn</p>
+                <h4 class="portfolio-project">Magazyn Limited Edtition</h4>
+                <p class="portfolio-description">Dizajn</p>
               </figcaption>
             </figure>
           </li>
@@ -126,8 +126,8 @@
             <figure>
               <img src="images/portfolio/lab.jpg" alt="label tag" width="370" height="294" />
               <figcaption>
-                <h4>Projekt LAB</h4>
-                <p>Marketing</p>
+                <h4 class="portfolio-project">Projekt LAB</h4>
+                <p class="portfolio-description">Marketing</p>
               </figcaption>
             </figure>
           </li>
@@ -135,8 +135,8 @@
             <figure>
               <img src="images/portfolio/laptop.jpg" alt="laptop" width="370" height="294" />
               <figcaption>
-                <h4>Growing Business</h4>
-                <p>Aplikacja</p>
+                <h4 class="portfolio-project">Growing Business</h4>
+                <p class="portfolio-description">Aplikacja</p>
               </figcaption>
             </figure>
           </li>
@@ -144,12 +144,14 @@
       </section>
     </main>
 
-    <footer class="grey-background white-text">
-      <a href="#" class="webstudio white-text"><span class="web-blue">Web</span>Studio</a>
-      <address class="stopka-adres">
+    <footer class="contact">
+      <a href="index.html" class="webstudio studio-white"
+        ><span class="web-blue">Web</span>Studio</a
+      >
+      <address class="address-info">
         m. Warszawa, Aleje Jerozolimskie 21<br />
-        <a href="mailto:info@example.com" class="stopka-link">info@example.com</a><br />
-        <a href="tel:+48111111111" class="stopka-link">+48 111 111 111</a>
+        <a href="mailto:info@example.com" class="contact-page-link">info@example.com</a><br />
+        <a href="tel:+48111111111" class="contact-page-link">+48 111 111 111</a>
       </address>
     </footer>
   </body>
