@@ -47,12 +47,14 @@ body {
   background-color: var(--darkGrey-background-color);
   color: var(--white-text);
   text-transform: uppercase;
+  text-align: center;
 }
 
 .lista {
   list-style-type: none;
 }
 
+/* szare tło tak jak w title */
 .stopka {
   background-color: var(--darkGrey-background-color);
   color: var(--white-text);
