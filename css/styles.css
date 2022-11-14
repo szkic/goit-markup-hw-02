@@ -24,11 +24,11 @@ body {
   color: var(--blue-text);
 }
 
-.studio-black {
+.black-text {
   color: var(--black-text);
 }
 
-.studio-white {
+.white-text {
   color: var(--white-text);
 }
 
@@ -43,11 +43,8 @@ body {
   cursor: pointer;
 }
 
-.title {
-  background-color: var(--darkGrey-background-color);
-  color: var(--white-text);
+.nazwa {
   text-transform: uppercase;
-  text-align: center;
 }
 
 .lista {
@@ -55,9 +52,8 @@ body {
 }
 
 /* szare tło tak jak w title */
-.stopka {
+.grey-background {
   background-color: var(--darkGrey-background-color);
-  color: var(--white-text);
 }
 
 .stopka-link {
@@ -77,6 +73,6 @@ body {
   background-color: var(--team-background-color);
 }
 
-.pozycja {
+.pozycja-center {
   text-align: center;
 }
