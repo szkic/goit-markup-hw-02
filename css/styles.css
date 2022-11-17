@@ -107,14 +107,14 @@ body {
   text-align: center;
 }
 
-.employe {
+.team-employe {
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.03em;
   line-height: 1.17;
 }
 
-.job {
+.team-job {
   color: var(--light-grey);
   font-size: 16px;
   letter-spacing: 0.03em;
