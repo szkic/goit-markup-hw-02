@@ -4,6 +4,7 @@
   --grey-text: #212121;
   --white-text: #fff;
   --light-grey: #757575;
+  --dimmed-white: #ffffff60;
   --team-background-color: #f5f4fa;
   --darkGrey-background-color: #2f303a;
   --lightGrey-background-color: #e5e5e5;
@@ -19,10 +20,10 @@ body {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
-  text-decoration: none;
-  color: var(--black-text);
   letter-spacing: 0.03em;
-  line-height: 1.17; /*sprawdzić*/
+  line-height: 1.17;
+  color: var(--black-text);
+  text-decoration: none;
 }
 
 .logo-blue {
@@ -34,11 +35,12 @@ body {
 }
 
 .nav-link {
-  text-decoration: none;
-  color: inherit;
+  font-size: 14px;
   font-weight: 500;
+  text-decoration: none;
   letter-spacing: 0.02em;
   line-height: 1.17;
+  color: inherit;
 }
 
 .nav-link:hover,
@@ -48,9 +50,9 @@ body {
 
 /* title */
 .title-description {
-  background-color: var(--darkGrey-background-color);
   color: var(--white-text);
   text-align: center;
+  background-color: var(--darkGrey-background-color);
 }
 
 .title-text {
@@ -62,13 +64,14 @@ body {
 }
 
 .title-button {
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 700;
-  background-color: var(--blue-text);
-  color: var(--white-text);
   line-height: 1.875;
-  font-family: Roboto;
   letter-spacing: 0.06em;
+  color: var(--white-text);
+  background-color: var(--blue-text);
+  border-style: none;
 }
 
 .title-button:hover {
@@ -76,17 +79,18 @@ body {
 }
 
 /* advantages */
-.advantages-small-font {
+.advantages-title {
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.03em;
   line-height: 1.17;
 }
 
-.advantages-small-font-desc {
-  color: var(--light-grey);
+.advantages-desc {
+  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color: var(--light-grey);
 }
 
 /* what we do */
@@ -103,8 +107,8 @@ body {
 
 /* team */
 .team {
-  background-color: var(--team-background-color);
   text-align: center;
+  background-color: var(--team-background-color);
 }
 
 .team-employe {
@@ -115,10 +119,10 @@ body {
 }
 
 .team-job {
-  color: var(--light-grey);
   font-size: 16px;
   letter-spacing: 0.03em;
   line-height: 1.17;
+  color: var(--light-grey);
 }
 
 /* portfolio */
@@ -127,18 +131,19 @@ body {
 }
 
 /* portfolio buttons */
-.portfolio-cursor {
+.portfolio-button {
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.625;
-  font-family: Roboto;
   letter-spacing: 0.03em;
+  border-style: none;
 }
 
-.portfolio-cursor:hover {
-  cursor: pointer;
+.portfolio-button:hover {
   background-color: var(--blue-text);
   color: var(--white-text);
+  cursor: pointer;
 }
 
 /* portfolio elements */
@@ -151,19 +156,19 @@ body {
 
 .portfolio-description {
   font-size: 16px;
-  color: var(--light-grey);
   line-height: 1.875;
   letter-spacing: 0.03em;
+  color: var(--light-grey);
 }
 
 /* footer */
 .contact {
-  background-color: var(--darkGrey-background-color);
   color: var(--white-text);
+  background-color: var(--darkGrey-background-color);
 }
 
 .contact-page-link {
-  color: #ffffff60;
+  color: var(--dimmed-white);
   text-decoration: none;
   font-size: 14px;
   line-height: 1.71;
