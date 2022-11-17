@@ -29,6 +29,10 @@ body {
   color: var(--blue-text);
 }
 
+.logo-white {
+  color: var(--white-text);
+}
+
 .nav-link {
   text-decoration: none;
   color: inherit;
@@ -72,14 +76,14 @@ body {
 }
 
 /* advantages */
-.small-font {
+.advantages-small-font {
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.03em;
   line-height: 1.17;
 }
 
-.small-font-desc {
+.advantages-small-font-desc {
   color: var(--light-grey);
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -155,10 +159,6 @@ body {
 /* footer */
 .contact {
   background-color: var(--darkGrey-background-color);
-  color: var(--white-text);
-}
-
-.studio-white {
   color: var(--white-text);
 }
 
