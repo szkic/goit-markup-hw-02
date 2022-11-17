@@ -2,7 +2,7 @@
   --blue-text: #2196f3;
   --black-text: #000;
   --grey-text: #212121;
-  --white-text: #fff;
+  --white: #fff;
   --light-grey: #757575;
   --dimmed-white: #ffffff60;
   --team-background-color: #f5f4fa;
@@ -31,7 +31,7 @@ body {
 }
 
 .logo-white {
-  color: var(--white-text);
+  color: var(--white);
 }
 
 .nav-link {
@@ -52,7 +52,7 @@ body {
 
 /* title */
 .title-description {
-  color: var(--white-text);
+  color: var(--white);
   text-align: center;
   background-color: var(--darkGrey-background-color);
 }
@@ -71,7 +71,7 @@ body {
   font-weight: 700;
   line-height: 1.875;
   letter-spacing: 0.06em;
-  color: var(--white-text);
+  color: var(--white);
   background-color: var(--blue-text);
   border-style: none;
 }
@@ -113,6 +113,10 @@ body {
   background-color: var(--team-background-color);
 }
 
+.team-box {
+  background-color: var(--white);
+}
+
 .team-employe {
   font-size: 16px;
   font-weight: 500;
@@ -145,7 +149,7 @@ body {
 
 .portfolio-button:hover {
   background-color: var(--blue-text);
-  color: var(--white-text);
+  color: var(--white);
   cursor: pointer;
 }
 
@@ -166,7 +170,7 @@ body {
 
 /* footer */
 .contact {
-  color: var(--white-text);
+  color: var(--white);
   background-color: var(--darkGrey-background-color);
 }
 
