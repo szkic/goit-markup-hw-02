@@ -44,9 +44,7 @@ body {
 }
 
 .nav-link:hover,
-.nav-link:focus,
-.contact-page-link:hover,
-.contact-page-link:focus {
+.nav-link:focus {
   color: var(--blue-text);
 }
 
@@ -187,6 +185,11 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+.contact-page-link:hover,
+.contact-page-link:focus {
+  text-decoration: underline;
 }
 
 /* lists without styles */
